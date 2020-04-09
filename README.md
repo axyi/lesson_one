@@ -6,6 +6,13 @@ cd ./lesson_one
 docker-compose up -d
 ```
 
-Go to http://localhost:3000 for playing to flatris
+Go to http://localhost:3000 for playing to Flatris
 
-Go to http://localhost:8001 for playing to clumsy-bird
+Go to http://localhost:8001 for playing to Clumsy Bird
+
+
+## Flatris
+[![Flatris](flatris.png)]
+
+## Clumsy Bird
+[![Clumsy Bird](clumsy-bird.png)]
