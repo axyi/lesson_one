@@ -1,0 +1,6 @@
+[submodule "flatris"]
+	path = flatris
+	url = https://github.com/timurb/flatris.git
+[submodule "clumsy-bird"]
+	path = clumsy-bird
+	url = https://github.com/ellisonleao/clumsy-bird.git

@@ -1,0 +1,18 @@
+version: "3"
+services:
+  flatris:
+    build:
+      context: ./
+      dockerfile: Dockerfile-flatris
+    ports: 
+      - "3000:3000"
+  clumsy-bird:
+    build:
+      context: ./
+      dockerfile: Dockerfile-clumsy-bird
+    ports: 
+      - "8001:8001"
+    expose:
+      - "8001"
+    entrypoint: grunt
+    command: connect
